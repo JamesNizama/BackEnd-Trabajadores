@@ -13,6 +13,7 @@ namespace BackEnd_Trabajadores.Mappings
             CreateMap<Distrito, DistritoDTO>();
             CreateMap<Provincia, ProvinciaDTO>();
             CreateMap<Trabajador, TrabajadorDTO>();
+            CreateMap<TrabajadorDTO, Trabajador>();
         }
     }
 }
