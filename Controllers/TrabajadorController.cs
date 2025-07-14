@@ -37,11 +37,12 @@ namespace BackEnd_Trabajadores.Controllers
             return Ok(result);
         }
 
-        [HttpDelete("eliminar/{id}")]
-        public IActionResult Eliminar(int id)
+        [HttpDelete("eliminar")]
+        public IActionResult Eliminar([FromBody] TrabajadorDTO dto)
         {
-            var result = _service.EliminarTrabajador(id);
+            var result = _service.EliminarTrabajador(dto);
             return Ok(result);
         }
+
     }
 }

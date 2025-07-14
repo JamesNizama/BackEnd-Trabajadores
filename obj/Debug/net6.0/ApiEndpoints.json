@@ -64,14 +64,14 @@
   {
     "ContainingType": "BackEnd_Trabajadores.Controllers.TrabajadorController",
     "Method": "Eliminar",
-    "RelativePath": "api/Trabajador/eliminar/{id}",
+    "RelativePath": "api/Trabajador/eliminar",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "dto",
+        "Type": "BackEnd_Trabajadores.DTO.TrabajadorDTO",
         "IsRequired": true
       }
     ],

@@ -70,13 +70,13 @@ namespace BackEnd_Trabajadores.Data
             }
         }
 
-        public string EliminarTrabajador(int id)
+        public string EliminarTrabajador(Models.Entities.Trabajador trabajador)
         {
             string sqlEliminar = bdEsquema + "SP_ELIMINAR_TRABAJADOR";
             using (SqlConnection sqlCn = new SqlConnection(this.cnBD))
             {
                 var parametros = new DynamicParameters();
-                parametros.Add("@Id", id, DbType.Int32);
+                parametros.Add("@Id", trabajador.Id, DbType.Int32);
 
                 int filasAfectadas = sqlCn.Execute(sqlEliminar, parametros, commandType: CommandType.StoredProcedure);
 
