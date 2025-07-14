@@ -82,3 +82,4 @@ C:\Proyectos\Prueba-Desarrollo\BackEnd-Trabajadores\BackEnd-Trabajadores\obj\Deb
 C:\Proyectos\Prueba-Desarrollo\BackEnd-Trabajadores\BackEnd-Trabajadores\obj\Debug\net6.0\BackEnd-Trabajadores.pdb
 C:\Proyectos\Prueba-Desarrollo\BackEnd-Trabajadores\BackEnd-Trabajadores\obj\Debug\net6.0\BackEnd-Trabajadores.genruntimeconfig.cache
 C:\Proyectos\Prueba-Desarrollo\BackEnd-Trabajadores\BackEnd-Trabajadores\obj\Debug\net6.0\ref\BackEnd-Trabajadores.dll
+C:\Proyectos\Prueba-Desarrollo\BackEnd-Trabajadores\BackEnd-Trabajadores\obj\Debug\net6.0\BackEnd-Trabajadores.sourcelink.json

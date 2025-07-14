@@ -10,6 +10,9 @@ namespace BackEnd_Trabajadores.Mappings
         public AutoMapperProfile()
         {
             CreateMap<Departamento, DepartamentoDTO>();
+            CreateMap<Distrito, DistritoDTO>();
+            CreateMap<Provincia, ProvinciaDTO>();
+            CreateMap<Trabajador, TrabajadorDTO>();
         }
     }
 }

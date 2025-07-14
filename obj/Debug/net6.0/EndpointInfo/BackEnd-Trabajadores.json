@@ -17,6 +17,42 @@
         }
       }
     },
+    "/api/Distrito/listar": {
+      "get": {
+        "tags": [
+          "Distrito"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Provincia/listar": {
+      "get": {
+        "tags": [
+          "Provincia"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Trabajador/listar": {
+      "get": {
+        "tags": [
+          "Trabajador"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [

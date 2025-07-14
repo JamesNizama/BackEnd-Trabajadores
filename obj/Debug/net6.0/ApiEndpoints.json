@@ -10,6 +10,36 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BackEnd_Trabajadores.Controllers.DistritoController",
+    "Method": "GetAllDepartamento",
+    "RelativePath": "api/Distrito/listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEnd_Trabajadores.Controllers.ProvinciaController",
+    "Method": "GetAllDepartamento",
+    "RelativePath": "api/Provincia/listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEnd_Trabajadores.Controllers.TrabajadorController",
+    "Method": "GetAllDepartamento",
+    "RelativePath": "api/Trabajador/listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BackEnd_Trabajadores.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

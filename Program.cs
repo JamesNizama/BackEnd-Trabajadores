@@ -21,7 +21,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("Conexion")));
 
 builder.Services.AddScoped<BackEnd_Trabajadores.Service.DepartamentoService>();
-
+builder.Services.AddScoped<BackEnd_Trabajadores.Service.DistritoService>();
+builder.Services.AddScoped<BackEnd_Trabajadores.Service.ProvinciaService>();
+builder.Services.AddScoped<BackEnd_Trabajadores.Service.TrabajadorService>();
 
 var app = builder.Build();
 
